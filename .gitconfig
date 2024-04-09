@@ -1,10 +1,5 @@
 [pull]
 	ff = only
-[user]
-	email = hucancode@gmail.com
-	name = hucancode
-[credential]
-	helper = libsecret
 [core]
     pager = delta
 

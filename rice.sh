@@ -22,10 +22,9 @@ WM_AUR="i3lock-color eww ksuperkey"
 MEDIA="ario alsa-utils ffmpeg mpd mpc mpv viewnior chromium"
 FILE_MANAGER="thunar"
 FILE_MANAGER_AUR="joshuto"
-TERMINAL="alacritty helix exa git-delta rustup nodejs npm"
+TERMINAL="alacritty helix exa git-delta rustup"
 EDITOR_AUR="vscodium-bin"
-KEYRING="gnome-keyring libgnome-keyring"
-yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $THEME $FONTS $WM $MEDIA $TERMINAL $KEYRING $WM_AUR $FILE_MANAGER $FILE_MANAGER_AUR $EDITOR_AUR
+yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $THEME $FONTS $WM $MEDIA $TERMINAL $WM_AUR $FILE_MANAGER $FILE_MANAGER_AUR $EDITOR_AUR
 # wallpaper/icon settings
 curl -L -o avatar.png https://github.com/$GH_USERNAME.png && sudo cp {avatar.png,.config/lightdm/wallpaper.jpg} /usr/share/lightdm-gtk-greeter-settings && rm avatar.png
 sudo mkdir /usr/share/openbox && sudo mv .config/openbox/icons /usr/share/openbox
