@@ -36,7 +36,6 @@ ll.setup({
     section_separators = { left = '', right = '' },
     globalstatus = true,
   },
-  tabline = {},
   sections = {
     lualine_a = {{
       'mode',
