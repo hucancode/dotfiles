@@ -15,6 +15,6 @@ if status is-interactive
     set -gx SHELL fish
     set -gx EDITOR hx
     if not set -q TMUX
-        tmux attach -t (tmux ls | grep -v attached | head -1 | cut -f1 -d:) || tmux new -c $PWD
+        tmux ls | grep -v attached && tmux attach || tmux new -c $PWD
     end
 end
