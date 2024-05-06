@@ -3,9 +3,9 @@ theme = "catppuccin_mocha_custom"
 [editor]
 true-color = true
 cursorline = true
-bufferline = "always"
 color-modes = true
 completion-replace = true
+# popup-border = "all"
 
 [editor.lsp]
 display-signature-help-docs = false

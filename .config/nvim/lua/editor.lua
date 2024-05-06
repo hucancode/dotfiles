@@ -36,30 +36,7 @@ ll.setup({
     section_separators = { left = '', right = '' },
     globalstatus = true,
   },
-  tabline = {
-    lualine_a = {{
-      'buffers', 
-      hide_filename_extension = true,
-      max_length = vim.o.columns,
-      symbols = {
-        modified = ' ',      -- Text to show when the buffer is modified
-        alternate_file = '  ', -- Text to show to indify the alternate file
-        directory =  '',     -- Text to show when the buffer is a directory
-      },
-      filetype_names = {
-        TelescopePrompt = '',
-        dashboard = '',
-        packer = '',
-        fzf = '',
-        alpha = ''
-      }
-    }},
-    lualine_b = {},
-    lualine_c = {},
-    lualine_x = {},
-    lualine_y = {},
-    lualine_z = {},
-  },
+  tabline = {},
   sections = {
     lualine_a = {{
       'mode',

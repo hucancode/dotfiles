@@ -52,7 +52,7 @@
 	"window.menuBarVisibility": "hidden",
 	"window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
 	"workbench.activityBar.location": "top",
-	"workbench.colorTheme": "Default Dark+",
+	"workbench.colorTheme": "Catppuccin Mocha",
 	"workbench.editor.pinnedTabSizing": "shrink",
 	"workbench.layoutControl.enabled": false,
 	"workbench.panel.defaultLocation": "right",
