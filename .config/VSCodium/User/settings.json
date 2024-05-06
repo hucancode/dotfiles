@@ -1,5 +1,4 @@
 {
-	"breadcrumbs.enabled": false,
 	"editor.codeLens": false,
 	"editor.dragAndDrop": false,
 	"editor.folding": false,
@@ -65,4 +64,8 @@
 	"zenMode.showTabs": "single",
 	"window.customMenuBarAltFocus": false,
 	"window.titleBarStyle": "custom",
+	"editor.fontSize": 16,
+	"workbench.editor.showTabs": "none",
+	"breadcrumbs.enabled": false,
+	"editor.stickyScroll.enabled": false,
 }
