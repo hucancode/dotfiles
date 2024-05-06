@@ -9,9 +9,12 @@ if test -e $script_dir/local.fish
     source $script_dir/local.fish
 end
 if status is-interactive
-  # Commands to run in interactive sessions can go here
-  set fish_color_valid_path
-  set -U fish_key_bindings fish_default_key_bindings
-  set -gx SHELL fish
-  set -gx EDITOR hx
+    # Commands to run in interactive sessions can go here
+    set fish_color_valid_path
+    set -U fish_key_bindings fish_default_key_bindings
+    set -gx SHELL fish
+    set -gx EDITOR hx
+    if not set -q TMUX
+        tmux attach -t (tmux ls | grep -v attached | head -1 | cut -f1 -d:) || tmux new -c $PWD
+    end
 end
