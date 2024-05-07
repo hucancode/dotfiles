@@ -1,5 +1,5 @@
 inherits = "catppuccin_mocha"
-
+"ui.popup" = { fg = "text", bg = "base" }
 "ui.help" = { fg = "overlay2", bg = "base" }
 "ui.menu" = { fg = "overlay2", bg = "base" }
 "ui.menu.selected" = { fg = "text", modifiers = ["bold"] }
