@@ -12,6 +12,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     set fish_color_valid_path
     set -U fish_key_bindings fish_default_key_bindings
+    bind \cz 'fg 2>/dev/null; commandline -f repaint'
     set -gx SHELL fish
     set -gx EDITOR hx
     if not set -q TMUX
