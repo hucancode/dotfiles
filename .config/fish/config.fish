@@ -15,7 +15,4 @@ if status is-interactive
     bind \cz 'fg 2>/dev/null; commandline -f repaint'
     set -gx SHELL fish
     set -gx EDITOR hx
-    if not set -q TMUX
-        tmux ls | grep -v attached && tmux attach || tmux new -c $PWD
-    end
 end
