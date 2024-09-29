@@ -41,5 +41,26 @@
     "mode": "system",
     "light": "Ayu Light",
     "dark": "Rosé Pine"
+  },
+  "language_models": {
+    "openai": {
+      "version": "1",
+      "api_url": "https://yicoder9b.us.gaianet.network/v1",
+      "low_speed_timeout_in_seconds": 60,
+      "available_models": [
+        {
+          "name": "yicoder9b",
+          "max_tokens": 8096
+        }
+      ]
+    }
+  },
+  "assistant": {
+    "provider": "openai",
+    "default_model": {
+      "provider": "openai",
+      "model": "yicoder9b"
+    },
+    "version": "2"
   }
 }
