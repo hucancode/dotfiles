@@ -42,6 +42,7 @@
     "light": "Ayu Light",
     "dark": "Rosé Pine"
   },
+  // https://docs.gaianet.ai/user-guide/apps/zed/
   "language_models": {
     "openai": {
       "version": "1",
