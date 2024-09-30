@@ -59,10 +59,10 @@ chsh -s /usr/bin/fish
 ## Shortcuts
 ### Application launcher
 ```
+Super (or Alt + F1) - Application List
 Super + Enter - Open terminal emulator
 Super + W - Open browser
 Super + X - Power menu
-Super + R - Run
 ```
 ### Screenshot
 ```
