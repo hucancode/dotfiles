@@ -55,3 +55,29 @@ You may want to change your default shell to `fish`
 ```bash
 chsh -s /usr/bin/fish
 ```
+
+## Shortcuts
+### Application launcher
+```
+Super + Enter - Open terminal emulator
+Super + W - Open browser
+Super + X - Power menu
+Super + R - Run
+```
+### Screenshot
+```
+Print Screen - Screenshot (Screen)
+Alt + Print Screen - Screenshot (Window)
+Super + S - Screenshot Menu
+```
+### Window management
+```
+Super + Q - Close window
+Super + Up/Down/Left/Right - Move window
+Super + Left mouse - Move window
+Super + Right mouse - Resize window
+Super + 1/2/3/4/5/6 - Switch workspace 1~6
+Super + Shift + 1/2/3/4/5/6 - Move window to workspace 1~6
+Alt + Tab - Cycle window focus
+Alt + Shift + Tab - Cycle window focus backward
+```
