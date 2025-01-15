@@ -29,34 +29,32 @@ normal = "block"
 select = "underline"
 
 [keys.normal]
-a = ["collapse_selection", "append_mode"]
-i = ["collapse_selection", "insert_mode"]
-x = ["yank_main_selection_to_clipboard","delete_selection"]
 d = ["delete_selection"]
-y = ["yank_main_selection_to_clipboard", "collapse_selection"]
+x = ["yank_main_selection_to_clipboard", "delete_selection"]
+y = ["yank_main_selection_to_clipboard"]
 p = ["paste_clipboard_after", "collapse_selection"]
 P = ["paste_clipboard_before", "collapse_selection"]
-V = ["select_mode", "extend_to_line_bounds"]
-v = ["collapse_selection","select_mode"]
-esc = ["collapse_selection", "keep_primary_selection"]
-C = ["extend_to_line_end", "delete_selection", "insert_mode"]
-D = ["extend_to_line_end", "delete_selection"]
-C-a = ["select_all"]
-tab = ["rotate_view"]
-S-tab = ["rotate_view_reverse"]
+V = ["collapse_selection", "select_mode", "extend_to_line_bounds"]
+v = ["collapse_selection", "select_mode"]
+C = ["collapse_selection","extend_to_line_end", "delete_selection", "insert_mode"]
+D = ["collapse_selection","extend_to_line_end", "delete_selection"]
+esc = "collapse_selection"
+C-a = "select_all"
+tab = "rotate_view"
+S-tab = "rotate_view_reverse"
 
 [keys.select]
-x = ["yank_main_selection_to_clipboard","delete_selection"]
-y = ["yank_main_selection_to_clipboard", "collapse_selection", "normal_mode"]
-d = ["delete_selection", "collapse_selection", "normal_mode"]
+x = ["yank_main_selection_to_clipboard", "delete_selection", "normal_mode"]
+y = ["yank_main_selection_to_clipboard", "normal_mode"]
+d = ["delete_selection", "normal_mode"]
 p = ["replace_selections_with_clipboard", "collapse_selection", "normal_mode"]
 P = ["replace_selections_with_clipboard", "collapse_selection", "normal_mode"]
 k = ["extend_line_up", "extend_to_line_bounds"]
 j = ["extend_line_down", "extend_to_line_bounds"]
-esc = ["normal_mode","collapse_selection", "keep_primary_selection"]
+esc = "normal_mode"
 C-a = "select_all"
-tab = ["indent"]
-S-tab = ["unindent"]
+tab = "indent"
+S-tab = "unindent"
 
 [keys.normal.space]
 F = "no_op"
