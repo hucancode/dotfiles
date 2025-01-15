@@ -14,7 +14,7 @@
 - 🔔 Notification panel [dunst](https://wiki.archlinux.org/title/dunst)
 - 📂 File manager [yazi](https://yazi-rs.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start)
 - 📋 Text editor [helix](https://helix-editor.com/) and [zed](https://zed.dev/)
-- 💻 Shell and terminal emulator [fish](https://wiki.archlinux.org/title/fish), [tmux](https://github.com/tmux/tmux), [alacritty](https://ghostty.org/)
+- 💻 Shell and terminal emulator [fish](https://wiki.archlinux.org/title/fish), [tmux](https://github.com/tmux/tmux), [ghostty](https://ghostty.org/)
 - 🎧 Music player [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon) and [ario](https://ario-player.sourceforge.net/)
 
 # 👀 Screenshots
