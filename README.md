@@ -46,7 +46,7 @@ lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings arc-gtk-theme
 ttf-fira-code noto-fonts noto-fonts-cjk noto-fonts-emoji
 openbox rofi yad dunst nitrogen xclip xdotool maim
 i3lock-color eww ksuperkey chromium thunar yazi
-ghostty neovim exa git-delta rustup zed
+ghostty exa git-delta rustup zed helix
 ```
 
 ## 🐚 After install
