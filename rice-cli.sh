@@ -15,6 +15,6 @@ git submodule update --init --recursive
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin && makepkg -si && cd -
 # install packages
-FILE_MANAGER_AUR="joshuto"
-TERMINAL="helix exa git-delta rustup nodejs npm"
+FILE_MANAGER="yazi"
+TERMINAL="helix exa git-delta rustup"
 yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $TERMINAL $FILE_MANAGER_AUR
