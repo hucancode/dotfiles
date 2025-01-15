@@ -22,7 +22,7 @@ WM_AUR="i3lock-color eww ksuperkey"
 MEDIA="ario alsa-utils ffmpeg mpd mpc mpv viewnior chromium"
 FILE_MANAGER="thunar"
 FILE_MANAGER_AUR="joshuto"
-TERMINAL="alacritty helix exa git-delta rustup"
+TERMINAL="ghostty helix exa git-delta rustup"
 EDITOR_AUR="zed"
 yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $THEME $FONTS $WM $MEDIA $TERMINAL $WM_AUR $FILE_MANAGER $FILE_MANAGER_AUR $EDITOR_AUR
 # wallpaper/icon settings
