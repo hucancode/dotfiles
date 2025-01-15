@@ -12,9 +12,9 @@
 - 📊 Status bar [eww](https://github.com/elkowar/eww)
 - 🚀 Program launcher [rofi](https://wiki.archlinux.org/title/rofi)
 - 🔔 Notification panel [dunst](https://wiki.archlinux.org/title/dunst)
-- 📂 File manager [joshuto](https://github.com/kamiyaa/joshuto) and [thunar](https://docs.xfce.org/xfce/thunar/start)
-- 📋 Text editor [neovim](https://neovim.io/) and [zed](https://zed.dev/)
-- 💻 Shell and terminal emulator [fish](https://wiki.archlinux.org/title/fish), [tmux](https://github.com/tmux/tmux), [alacritty](https://alacritty.org/)
+- 📂 File manager [yazi](https://yazi-rs.github.io/) and [thunar](https://docs.xfce.org/xfce/thunar/start)
+- 📋 Text editor [helix](https://helix-editor.com/) and [zed](https://zed.dev/)
+- 💻 Shell and terminal emulator [fish](https://wiki.archlinux.org/title/fish), [tmux](https://github.com/tmux/tmux), [alacritty](https://ghostty.org/)
 - 🎧 Music player [mpd](https://wiki.archlinux.org/title/Music_Player_Daemon) and [ario](https://ario-player.sourceforge.net/)
 
 # 👀 Screenshots
@@ -45,8 +45,8 @@ Please find equivalent of these packages on your system
 lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings arc-gtk-theme
 ttf-fira-code noto-fonts noto-fonts-cjk noto-fonts-emoji
 openbox rofi yad dunst nitrogen xclip xdotool maim
-i3lock-color eww ksuperkey chromium thunar joshuto
-alacritty neovim exa git-delta rustup zed
+i3lock-color eww ksuperkey chromium thunar yazi
+ghostty neovim exa git-delta rustup zed
 ```
 
 ## 🐚 After install
