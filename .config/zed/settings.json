@@ -29,11 +29,6 @@
     "cv31": true,
     "cv14": true
   },
-  "toolbar": {
-    "breadcrumbs": false,
-    "quick_actions": false,
-    "selections_menu": false
-  },
   "outline_panel": {
     "button": false
   },
@@ -49,7 +44,17 @@
   "indent_guides": {
     "enabled": false
   },
-  "show_whitespaces": "boundary",
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+  "hover_popover_enabled": false,
+  "git": {
+    "inline_blame": {
+      "enabled": false
+    }
+  },
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
