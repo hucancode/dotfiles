@@ -15,7 +15,7 @@
     "version": "2"
   },
   "features": {
-    "inline_completion_provider": "zed"
+    "inline_completion_provider": "copilot"
   },
   "vim_mode": true,
   "ui_font_size": 16,
