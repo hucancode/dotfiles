@@ -17,4 +17,4 @@ cd yay-bin && makepkg -si && cd -
 # install packages
 FILE_MANAGER="yazi"
 TERMINAL="helix exa git-delta rustup"
-yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $TERMINAL $FILE_MANAGER_AUR
+yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $TERMINAL $FILE_MANAGER
