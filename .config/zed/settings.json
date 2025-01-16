@@ -49,11 +49,28 @@
       "breadcrumbs": false
     }
   },
+  "tab_bar": {
+    "show_nav_history_buttons": false
+  },
+  "tabs": {
+    "file_icons": true
+  },
   "hover_popover_enabled": false,
   "git": {
     "inline_blame": {
       "enabled": false
     }
+  },
+  "soft_wrap": "bounded",
+  "show_wrap_guides": false,
+  "scrollbar": {
+    "git_diff": false,
+    "search_results": false,
+    "diagnostics": false,
+    "selected_symbol": false
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 0.4
   },
   "theme": {
     "mode": "system",
