@@ -7,8 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "zed"
   },
   "vim_mode": true,
   "ui_font_size": 16,
@@ -27,9 +34,6 @@
     "quick_actions": false,
     "selections_menu": false
   },
-  "project_panel": {
-    "button": false
-  },
   "outline_panel": {
     "button": false
   },
@@ -40,39 +44,15 @@
     "button": false
   },
   "chat_panel": {
-    "button": false
-  },
-  "tab_bar": {
-    "show": false
+    "button": "never"
   },
   "indent_guides": {
     "enabled": false
   },
+  "show_whitespaces": "boundary",
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Rosé Pine"
-  },
-  // https://docs.gaianet.ai/user-guide/apps/zed/
-  "language_models": {
-    "openai": {
-      "version": "1",
-      "api_url": "https://yicoder9b.us.gaianet.network/v1",
-      "low_speed_timeout_in_seconds": 60,
-      "available_models": [
-        {
-          "name": "yicoder9b",
-          "max_tokens": 8096
-        }
-      ]
-    }
-  },
-  "assistant": {
-    "provider": "openai",
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-20240620"
-    },
-    "version": "2"
+    "dark": "Ayu Dark"
   }
 }
