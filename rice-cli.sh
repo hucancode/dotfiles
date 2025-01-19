@@ -15,6 +15,7 @@ git submodule update --init --recursive
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin && makepkg -si && cd -
 # install packages
-FILE_MANAGER="yazi"
-TERMINAL="helix exa git-delta rustup"
-yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $TERMINAL $FILE_MANAGER
+FILE_MANAGER="yazi exa"
+EDITOR="helix exa git-delta rustup"
+DEV="rustup zig zls bun"
+yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $FILE_MANAGER $EDITOR $DEV
