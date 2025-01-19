@@ -16,6 +16,6 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin && makepkg -si && cd -
 # install packages
 FILE_MANAGER="yazi exa"
-EDITOR="helix exa git-delta rustup"
+EDITOR="helix git-delta"
 DEV="rustup zig zls bun"
 yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $FILE_MANAGER $EDITOR $DEV
