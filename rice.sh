@@ -22,7 +22,7 @@ MEDIA="ario alsa-utils ffmpeg mpd mpc mpv viewnior firefox"
 FILE_MANAGER="thunar yazi exa"
 TERMINAL="ghostty"
 EDITOR="helix zed git-delta"
-DEV="rustup zig zls bun"
+DEV="rustup zig zls go gopls bun"
 yay -S --nocleanmenu --noeditmenu --nodiffmenu --noupgrademenu $THEME $FONTS $WM $MEDIA $TERMINAL $FILE_MANAGER $EDITOR $DEV
 # wallpaper/icon settings
 curl -L -o avatar.png https://github.com/$GH_USERNAME.png && sudo cp {avatar.png,.config/lightdm/wallpaper.jpg} /usr/share/lightdm-gtk-greeter-settings && rm avatar.png
